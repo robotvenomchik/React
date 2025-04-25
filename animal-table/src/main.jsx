@@ -35,5 +35,5 @@ const animalGroups = [
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App title="Animal groups" data={animalGroups} />
-  </React.StrictMode>,
+  </React.StrictMode>, 
 )
