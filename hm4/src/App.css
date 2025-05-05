@@ -1,0 +1,54 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-form {
+  margin-bottom: 20px;
+}
+
+.user-form div {
+  margin-bottom: 10px;
+}
+
+.user-form label {
+  display: inline-block;
+  width: 80px;
+}
+
+.user-form input,
+.user-form button {
+  padding: 5px;
+}
+
+.user-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.user-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-item button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+}
