@@ -1,11 +1,15 @@
 .app {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(60, 80, 120, 0.08);
+  min-height: 90vh;
 }
 
 main {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 120px);
 }
 
 .header {
@@ -108,5 +112,11 @@ input:focus {
   
   .flights-page form {
     grid-template-columns: 1fr;
+  }
+  
+  .app {
+    padding: 0.5rem;
+    border-radius: 0;
+    box-shadow: none;
   }
 }
