@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@tanstack/react-query": "^5.80.2",
+    "axios": "^1.9.0",
+    "react-hook-form": "^7.57.0",
+    "react-router-dom": "^7.6.2",
+    "zod": "^3.25.51",
+    "zustand": "^5.0.5"
+  }
+}
